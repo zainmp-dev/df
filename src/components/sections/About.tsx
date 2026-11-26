@@ -118,7 +118,7 @@ export function About() {
               />
               <p className="mt-4 flex items-center gap-2 text-sm font-semibold text-ink-soft">
                 <MapPin size={15} className="text-plum" aria-hidden="true" />
-                Based in {profile.location}
+                Based in {profile.location}, India
               </p>
             </div>
           </div>
