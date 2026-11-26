@@ -20,7 +20,7 @@ Set `NEXT_PUBLIC_SITE_URL` to your live domain before deploying so social-previe
 - `src/components/ui/` — shared building blocks (Reveal, AnimatedHeading, Button, DarkPanel, …).
 - `src/lib/gsap.ts` — GSAP/ScrollTrigger registration and the reduced-motion media query.
 - `public/images/bannerimg.png` — hero banner portrait.
-- `public/images/aboutimg.jpeg` — About section portrait.
+- `public/images/aboutimg.png` — About section portrait.
 - `public/images/og.jpg` — social preview image. `public/Diya-Fathima-M-CV.pdf` — downloadable CV.
 
 ## Animation split

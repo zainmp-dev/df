@@ -52,33 +52,6 @@ export function About() {
             },
           },
         );
-
-        // Portrait: wipe-in reveal, then a slow counter-scroll on the image.
-        gsap.fromTo(
-          ".about-clip",
-          { clipPath: "inset(0% 0% 100% 0%)" },
-          {
-            clipPath: "inset(0% 0% 0% 0%)",
-            duration: 1.4,
-            ease: "power4.inOut",
-            scrollTrigger: { trigger: ".about-clip", start: "top 82%", once: true },
-          },
-        );
-        gsap.fromTo(
-          ".about-img",
-          { yPercent: -7, scale: 1.34 },
-          {
-            yPercent: 7,
-            scale: 1.34,
-            ease: "none",
-            scrollTrigger: {
-              trigger: ".about-clip",
-              start: "top bottom",
-              end: "bottom top",
-              scrub: true,
-            },
-          },
-        );
       },
       root,
     );
@@ -134,16 +107,15 @@ export function About() {
 
           <div className="lg:col-span-5">
             <div className="mx-auto max-w-[24rem] lg:max-w-none">
-              <div className="about-clip relative aspect-[4/5] overflow-hidden rounded-[2rem] bg-cream-soft">
-                <Image
-                  src={profile.aboutImage}
-                  alt={`${profile.name}, close portrait`}
-                  fill
-                  quality={75}
-                  sizes="(min-width: 1024px) 38vw, 24rem"
-                  className="about-img object-cover object-[50%_22%]"
-                />
-              </div>
+              <Image
+                src={profile.aboutImage}
+                alt={`${profile.name}, close portrait`}
+                width={1280}
+                height={1280}
+                quality={85}
+                sizes="(min-width: 1024px) 38vw, 24rem"
+                className="h-auto w-full object-contain"
+              />
               <p className="mt-4 flex items-center gap-2 text-sm font-semibold text-ink-soft">
                 <MapPin size={15} className="text-plum" aria-hidden="true" />
                 Based in {profile.location}
