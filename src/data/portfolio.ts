@@ -12,7 +12,8 @@ export const profile = {
   email: "diyafathimamop@gmail.com",
   linkedin: "https://linkedin.com/in/diya-fathima-m-0ab172284",
   cv: "/Diya-Fathima-M-CV.pdf",
-  portrait: "/images/diya-portrait.webp",
+  bannerImage: "/images/bannerimg.png",
+  aboutImage: "/images/aboutimg.jpeg",
   summary:
     "Detail-oriented BCom Professional graduate working as a Junior MIS Executive, with experience in MIS reporting, audit support and data analysis.",
   heroLine:

@@ -136,7 +136,7 @@ export function About() {
             <div className="mx-auto max-w-[24rem] lg:max-w-none">
               <div className="about-clip relative aspect-[4/5] overflow-hidden rounded-[2rem] bg-cream-soft">
                 <Image
-                  src={profile.portrait}
+                  src={profile.aboutImage}
                   alt={`${profile.name}, close portrait`}
                   fill
                   quality={75}

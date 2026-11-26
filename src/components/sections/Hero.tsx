@@ -194,7 +194,7 @@ export function Hero() {
                   />
                   <div className="hero-clip relative aspect-[4/5] w-full overflow-hidden rounded-t-[999px] rounded-b-[2rem] bg-cream-soft shadow-[0_40px_80px_-40px_rgba(58,18,38,0.55)]">
                     <Image
-                      src={profile.portrait}
+                      src={profile.bannerImage}
                       alt="Portrait of Diya Fathima M, wearing a burgundy blazer and a soft beige hijab"
                       fill
                       quality={75}
