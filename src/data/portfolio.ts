@@ -13,7 +13,7 @@ export const profile = {
   linkedin: "https://linkedin.com/in/diya-fathima-m-0ab172284",
   cv: "/Diya-Fathima-M-CV.pdf",
   bannerImage: "/images/bannerimg.png",
-  aboutImage: "/images/aboutimg.jpeg",
+  aboutImage: "/images/aboutimg.png",
   summary:
     "Detail-oriented BCom Professional graduate working as a Junior MIS Executive, with experience in MIS reporting, audit support and data analysis.",
   heroLine:
