@@ -66,10 +66,10 @@ export function About() {
         );
         gsap.fromTo(
           ".about-img",
-          { yPercent: -7, scale: 1.18 },
+          { yPercent: -7, scale: 1.34 },
           {
             yPercent: 7,
-            scale: 1.18,
+            scale: 1.34,
             ease: "none",
             scrollTrigger: {
               trigger: ".about-clip",
